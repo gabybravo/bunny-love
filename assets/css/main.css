@@ -1,0 +1,291 @@
+body {
+	margin:0;
+	padding: 0;
+	background-color: #E7F5FA;
+	font-family: 'Prompt', sans-serif;	
+}
+
+.img-responsive {
+	max-width: 100%;
+	width: 100%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: 'Baloo Paaji', cursive;
+}
+
+/* Header */
+
+header {
+	background-color: #0F6B87;
+	width: 100%;
+	padding: 20px 0;
+}
+
+
+.logo {
+	float: left;	
+}
+
+.logo a {
+	display: left;
+	font-family: 'Baloo Paaji', cursive;
+	text-decoration: none;
+	color: white;
+	font-size: 1.7em;
+	padding-left: 160px;
+}
+
+.logo a span {
+	color: #FB5E60;
+}
+
+.menu {
+	display: inline-block;
+}
+
+.nav-menu {
+	float: right;
+}
+
+#nav-menu-js {
+	padding-top: 18px;
+}
+
+.nav-menu a {
+	color: white;
+	text-decoration: none;
+	font-size: 0.8em;	
+	font-weight: 200;
+	padding: 0 20px 0 28px;
+}
+
+.nav-menu a:hover {
+	color: #FB5E60;
+}
+
+
+/* Sección Soft Bunny */
+
+.img-soft {
+	width: 100%;
+	height: 350px;
+	background-repeat: no-repeat;
+	background-image: url(../img/img-1.jpg);
+	position: relative;
+	background-size: cover;
+}
+
+.cuadro-soft {
+	background-color: rgba(15,107,135, 0.7);
+	width: 80%;
+	height: 80%;
+	position: absolute;
+	top: 25px;
+	left: 94px;
+}
+
+.texto-soft {
+	text-align: center;
+}
+
+.texto-soft h1 {
+	text-align: center;
+	font-size: 5em;
+	color: #FB5E60;
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+
+.texto-soft p {
+	color: white;
+	font-style: italic;
+	font-weight: 200;
+}
+
+/* Sección The Tales */
+
+.tales-section {
+	background-color: white;
+}
+
+.tales {
+	padding: 30px 10px;
+}
+
+.the-tales {
+	padding: 5px 15px;
+	float: left;
+}
+
+.img-tales {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+	background-color: #0F6B87;    
+}  
+
+.texto-tales {
+	background-color: #0F6B87;
+	text-align: center;
+	padding: 5px;
+    width: 95%;
+    height: 250px;	
+}
+
+.texto-tales h3 {
+	padding-top: 20px; 
+	color: white;
+	font-size: 0.9em;
+	color: #FB5E60;	
+}
+
+.texto-tales p {
+	color: white;
+	font-size: 0.87em;
+}
+
+
+/* Sección Videos */
+
+.videos-section {
+	background-color: #0F6B87;
+}
+
+.videos {
+	display: inline-block;	
+    padding-top: 20px;	
+    padding-left: 20px;     
+}
+
+.videos-col {
+	float: left;
+    padding-right: 20px;  	
+}
+
+.img-videos {
+	background-color: #E7F5FA;	
+	width: 100%;
+	height: 325px;		
+}
+
+.texto-videos {
+	background-color: #E7F5FA;
+	text-align: center;
+	width: 98%;
+	height: 100%;
+	padding: 5px;
+}
+
+.el-videos {
+	background-color: #E7F5FA;
+	text-align: center;
+	width: 100%;
+	height: 100%;	
+}
+
+.texto-videos h3, .texto-redes h3 {
+	padding-top: 10px;
+	font-size: 1.4em;
+	color: #FB5E60;	
+}
+
+.texto-videos p, .texto-redes p {
+	text-align: left;
+	line-height: 17px;
+	font-size: 0.9em;
+	font-weight: bold;
+	padding: 0 20px;
+}
+
+/* RR.SS */
+
+.redes-col {
+	float: left;
+	margin-bottom: 10px;		
+
+}
+
+.search {
+	width: 362px;
+	height: 90px;
+	margin-bottom: 10px;
+	background-color: #E7F5FA;
+	border-radius: 0.5em;	
+}
+
+input {
+	opacity: 0.6;
+	margin-top: 25px;
+	border: none;
+	padding: 10px 50px;
+	margin-left: 9px;
+	font-size: 17px;
+	border-radius: 0.5em;	
+}
+
+.img-redes {
+	width: 100%;
+	height: 100%;	
+	background-color: #E7F5FA;		
+}
+
+.texto-redes {
+	background-color: #E7F5FA;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+
+}
+
+.redes-sociales .icon-cir {
+	margin: 0 20px 30px 20px;
+}
+
+.icon-cir {
+	background-color: white;
+	border-radius: 50px;
+	width: 25px;
+	height: 25px;
+	padding-left: 3px;
+	padding-top: 6px;
+	color: #0F6B87;
+}
+
+/* Sección Conejos */
+
+.conejos {
+	width: 100%;
+	height: 16%;
+}
+
+.conejitos {
+	padding-left: 25px;
+	display: inline-block;
+}
+
+.conejitos img {
+	width: 160px;
+}
+
+
+/* Footer */
+
+footer {
+	background-color: #0F6B87;
+	width: 100%;
+	height: 15%;
+}
+
+.rosa {
+	background-color: #FB5E60;
+	width: 100%;
+	height: 4%;
+}
+
+.footer p {
+	padding: 20px 0 10px 0;
+	text-align: center;
+	font-size: 0.9em;
+	color: white;	
+}
