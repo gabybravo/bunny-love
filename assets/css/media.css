@@ -1,0 +1,128 @@
+@media (min-width: 1px) and (max-width: 768px){
+
+	/* Header */
+
+	#menu-hamburguesa {
+		text-decoration: none;
+		color: white;
+		width: 100%;
+		padding-left: 50px;
+	}
+
+	.logo a {
+		padding-left: 50px;
+	}
+
+	.hide {
+		display: none;
+	}
+
+	.nav-menu {
+		clear: both;
+		height: 300px;
+	}
+
+	.nav-menu a {
+		display: block;
+		color: white;
+		text-decoration: none;
+		font-size: 0.8em;	
+		font-weight: 200;
+		padding: 20px 60px;
+	}
+
+	/* Sección Soft Bunny */
+	
+	.img-soft {
+		height: 250px;
+	}
+
+	.cuadro-soft {
+		left: 45px;
+	}
+
+	.texto-soft h1 {
+		font-size: 2.5em;
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+
+	.texto-soft p {
+		font-size: 0.8em;
+	}
+
+	/* Sección The Tales */
+
+	.the-tales {
+		padding: 5px 0;
+	}
+
+	.img-tales {
+	    width: 100%;
+	    height: 100%;
+	    overflow: hidden;
+		background-color: #0F6B87;	    
+	} 
+	
+	.texto-tales {
+		background-color: #0F6B87;
+		text-align: center;
+	    width: 97.1%;
+	    height: 100%;
+		padding: 5px;
+	}
+
+	/* Sección Videos */
+
+	.videos {
+		display: inline-block;	
+	    padding-top: 10px;	
+	    padding-left: 6px;     
+	}
+
+	.img-videos {
+		height: 100%;		
+	}
+
+	.texto-videos {
+		background-color: #E7F5FA;
+		text-align: center;
+		width: 97.1%;
+		height: 100%;
+		padding: 5px;
+	}
+
+	.redes-col {
+		display: none;
+	}
+
+	/* Sección Conejos */
+
+	.no-media {
+		display: none;
+	}
+
+	.no-media-2 {
+		display: none;
+	}
+
+	.conejos {
+		width: 100%;
+		height: 15%;
+	}
+
+	.conejitos {
+		display: inline-block;
+	}
+
+	.conejitos img {
+		margin: 0;
+		width: 30%;
+	}
+}
+
+@media (min-width: 768px) {
+	#menu-icono {
+		display: none;
+	}
+}
